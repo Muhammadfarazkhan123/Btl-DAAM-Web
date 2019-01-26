@@ -76,21 +76,24 @@ width: 100%;
 
 .logod{
     /* border: 1px solid rgb(55, 0, 255) */
-position: absolute
-    
+position: absolute;
+margin: 240px 0px 0px 0px
+
 }
 .lablogo{
     float: left;
     /* border: 1px solid red; */
     width: 20%;
-    height:120px;
+    height:140px;
     /* opacity: 6px; */
 }
 
 .lablogo img{
     /* background-color: rgb(184, 188, 190) */
-    height: 220px;
+    height: 260px;
 /* margin: 0px 0px 10px 2%; */
+margin: 0px 0px 10px 5%;
+opacity: 0.7;
 width: 100%;
 /* position: absolute; */
 /* margin: px 0px 0px 0px */
@@ -104,13 +107,14 @@ width: 100%;
     /* border: 1px solid red; */
     width: 30%;
     height: 120px;
-    margin: 00px 0px 0px 0px
+    margin: 140px 0px 0px 0px;
+    opacity: 0.8;
     
 }
 
 .unilogo img{
 height: 120px;
-/* margin: 0px 0px 10px 2%; */
+margin: 0px 0px 10px 5%;
 width: 100%;
 
 
