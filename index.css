@@ -1,85 +1,32 @@
-.navi{
-    background-color: rgb(9, 129, 69);
-    margin: 0%
-    
+/* slidepic */
+.slidePic{
+    max-width:100%;
+    border:1px solid rgb(223, 216, 216);
+    box-shadow:0px 4px 8px rgb(190, 189, 189);
+    /* min-height: 70% */
 }
 
-.navi a{
-    color:white;
-    font-size: 18px
+.slidePic img{
+    width:100%;height:600px
+}
+.sir img{
+    width: 45%
+}
+/* team container */
+.memb{
+    width: 10%
 }
 
-.navi a:hover{
-    color: black;
-    font-weight: bold;
-    border-radius: 6px;
-    
-    
-}
-.nav{
-    background-color: #186db3;
-    height: 60px;
-    padding: 5px 2px 5px 2px;
-    font-size: 20px;
-
-}
-
-.nav a{
-    border-radius: 5px;
-    color: #fff9f9;
-}
-
-
-.mid1{
-    border: 1px solid rgb(212, 205, 205);
-    min-height: 500px;
-    margin: 0px;
-
-
-}
-
-.mid1 li{
-
-}
-
-.mid2{
-    border: 1px solid rgb(201, 197, 197);
-    min-height: 500px;
-    margin: 0px
-}
-
-.mid3{
-    border: 1px solid rgb(192, 188, 188);
-    min-height: 500px;
-    margin: 0px
-}
-
-.navi li{
-    margin: 10px 0px 0px 40px;
-    height: 100%;
-    border-radius: 4px
-}
-
-.corosol{
-    max-height: 100%;
+.memb img{
+    width: 75%
 }
 
 
 
-.coroIMG img{
-max-height: 400px;
-min-height: 400px;
-align-items: center;
-width: 100%;
-}
+/* .logod{
+height: auto;
 
-
-.logod{
-    /* border: 1px solid rgb(55, 0, 255) */
-/* position: absolute; */
-/* margin: 240px 0px 0px 0px */
-
-}
+} */
 .lablogo{
     float: left;
     /* border: 1px solid red; */
@@ -135,79 +82,521 @@ width: 100%;
 
 }
 
-.head{
-    background-color: white
+.one{
+    width: 49%;
+    margin:20px 0px 0px 0px
+}
+.two{
+    width: 50%;
+    margin:20px 0px 0px 0px
+}
+.three{
+    width: 33%;
+    margin:20px 0px 0px 0px
+}
+.four{
+    width: 33%;
+    margin:20px 0px 0px 0px
+}
+.five{
+    width: 33%;
+    margin:20px 0px 0px 0px
+}
+
+.wwc{
+    min-height:60%;
+}
+
+.ll{
+    min-height: 1100px
+}
+.one img{
+    height: 320px;
+    width:100%
 }
 
 
-/* The side navigation menu */
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: rgb(4, 107, 47); /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav h3{
-    text-decoration: underline;
-    color: #49cc66
-  }
+/* media query */
 
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    color: #fff9f9;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #49cc66;
-    text-decoration: underline
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s;
-    padding: 20px;
-  }
-
-  .side{
-    margin: 2px 0px 10px 0px;
-    font-size: 35px;
-    color: aliceblue
-  }
-
-  .sideLi li{
-    color: white;
-    margin: 0px;
+@media only screen and (max-width:2560px) {
     
+    .wwc{
+        height:1353px;
+        border:1px solid rgb(114, 113, 113);
+        box-shadow:0px 4px 10px rgb(10, 10, 10)
+    }
+
+    .wwc img{
+        height: 23%;
+    }
+
+    .lablogo img{
+        height:280px ;
+   margin: 0px 0px 0px 5%;
+        
+    }
+   
+    .dpt img{
+       height:280px ;
+   margin: 0px 0px 0px 5%;
+       
+   }
+.lablogo{
+    width: 16%;
+    
+}
+   .dpt{
+    width: 16%;
+margin: 0px 0px 10px 20%;
+  /* height:120px; */
+    
+}
+}
+
+@media only screen and (max-width:1024px) {
+   .one{
+      width: 99%
+   }
+
+   .two{
+       width: 49%
+   }
+
+   .three{
+       width: 50%;
+       /* margin: 20px 0px 50px 0px */
+      
+   }
+
+   .four{
+    width: 49%;
+    
+}
+
+.five{
+    width: 50%;
+    /* margin: 20px 0px 0px 0px; */
+    
+    
+}
+
+    .one ul{
+        min-height: 900px
+    }
+
+    .one img{
+        height: 400px
+    }
+ 
+    .three ul{
+        height: 1245px;
+        margin: 0px 0px 0px 0px 
+    }
+
+    .two ul{
+        height: 1245px;
+        margin: 0px 0px 0px 0px 
+    }
+
+    .four ul{
+        height: 1145px;
+    }
+
+    .five ul{
+        height: 1145px;
+    }
+    .three img{
+        min-height: 26%
+    }
+   
+    .four{
+        margin: 20px 0px 0px 0px
+    }
+   
+    
+
+.memb h3{
+font-size: 18px;
+/* font-weight: bold */
+}
+
+.lablogo{
+    width: 27%
+   
+}
+.dpt{
+     width: 27%;
+ margin: 0px 0px 10px 8%;
+     
+ }
+}
+
+
+@media only screen and (max-width:768px) {
+   
+    .one ul{
+        height: 1000px;
+    }
+
+    .two ul{
+        height: 1550px
+    }
+    .three ul{
+        height: 1550px
+    }
+
+    .four ul{
+        height: 1323px
+    }
+
+    .five ul{
+        height: 1323px
+    }
+
+    .three img{
+        min-height: 23%
+    }
+    .two img{
+        min-height: 23%
+    }
+
+ 
+ 
+ .slidePic img{
+    width:100%;height:400px
+}
+
+.sir img{
+    width: 55%
+}
+
+.memb{
+    width: 20%
+}
+.memb img{
+    width: 45%
+}
+ 
+ .memb h3{
+ font-size: 18px;
+ /* font-weight: bold */
+ }
+ 
+ .lablogo{
+     width: 28%;
+    /* height:120px; */
+     
+    
+ }
+
+ .lablogo img{
+     height:220px ;
+margin: 20px 0px 10px 5%;
+     
+ }
+
+ .dpt img{
+    height:220px ;
+margin: 20px 0px 10px 5%;
+    
+}
+ .dpt{
+      width: 28%;
+  margin: 0px 0px 10px 6%;
+    /* height:120px; */
+      
+  }
+ }
+
+ @media only screen and (max-width:700px) {
+    .one{
+        width: 99%
+    }
+    .two{
+     width: 99%
+        
+    }
+ .three{
+     width: 99%
+     
+ }
+ 
+ .four{
+     width: 99%
+     
+ }
+ .five{
+     width: 99%
+     
+ }
+ 
+  .one ul{
+         height: 1300px
+     }
+ 
+     .sir{
+         width: 50%
+     }
+     .sir img{
+        width: 45%
+    }
+     
+                 }
+
+ 
+ @media only screen and (max-width:600px) {
+    .one{
+        width: 99%
+    }
+    .two{
+     width: 99%
+        
+    }
+ .three{
+     width: 99%
+     
+ }
+ 
+ .four{
+     width: 99%
+     
+ }
+ .five{
+     width: 99%
+     
+ }
+ 
+  .one ul{
+         height: 1300px
+     }
+ 
+     .sir{
+         width: 50%
+     }
+     .sir img{
+        width: 45%
+    }
+     
+                 }
+
+ @media only screen and (max-width:500px) {
+   .one{
+       width: 99%
+   }
+   .two{
+    width: 99%
+       
+   }
+.three{
+    width: 99%
+    
+}
+
+.four{
+    width: 99%
+    
+}
+.five{
+    width: 99%
+    
+}
+
+ .one ul{
+        height: 1250px
+    }
+
+    .sir{
+        width: 50%
+    }
+    .sir img{
+       width: 45%
+   }
+    
+                }
+ @media only screen and (max-width:425px) {
+   
+   .one{
+       width: 99%;
+   }
+   .one ul{
+       height: 1200px
+   }
+   .one img{
+       height: 22%
+   }
+
+   .two{
+    width: 99%;
+    }
+    .two ul{
+    height: 1500px
+    }
+    .two img{
+    height: 22%
+    }
+
+    .three{
+        width: 99%;
+        }
+        .three ul{
+        height: 1300px
+        }
+        .three img{
+        height: 22%
+        }
+
+        .four{
+            width: 99%;
+            }
+            .four ul{
+            height: 1400px
+            }
+            .four img{
+            height: 22%
+            }
+
+            .five{
+                width: 99%;
+                }
+                .five ul{
+                height: 1300px
+                }
+                .five img{
+                height: 22%
+                }
+
+                .logod{
+                   min-height: 450px
+                }
+              .lablogo {
+                    
+                    margin: 20px 0px 0px 20px;
+                    width: 45%
+                }
+
+                  .lablogo img{
+                    height: 210px;
+                    margin: 0px
+                }
+               
+                .dpt {
+                    
+                    margin: 20px 0px 0px 10px;
+                    width: 47%
+                }
+
+                  .dpt img{
+                    height: 200px;
+                    margin: 0px
+                }
+                 .unilogo{
+                     display: none
+                 }
+
+                 .sir{
+                     width: 50%
+                 }
+                 .sir img{
+                    width: 45%
+                }
+                
+                .memb{
+                    width: 33%
+                }
+                .memb img{
+                    width: 45%
+                }
+                 
+                 .memb h3{
+                 font-size: 18px;
+                 /* font-weight: bold */
+                 }
+ }
+
+ @media only screen and (max-width:375px) {
+   
+   
+    .one ul{
+        height: 1350px
+    }
+     .two ul{
+     height: 1750px
+     }
+   
+         .three ul{
+         height: 1550px
+         }
+       
+             .four ul{
+             height: 1550px
+             }
+
+                 .five ul{
+                 height: 1550px
+                 }
+       
+               .lablogo {
+                     
+                     margin: 20px 0px 0px 10px;
+                     width: 45%
+                 }
+ 
+                   .lablogo img{
+                     height: 210px;
+                     margin: 0px
+                 }
+                
+                 .dpt {
+                     
+                     margin: 20px 0px 0px 10px;
+                     width: 47%
+                 }
+ 
+                   .dpt img{
+                     height: 200px;
+                     margin: 0px
+                 }
+                  .unilogo{
+                      display: none
+                  }
+ 
   }
 
-  .side:hover{
-      color: rgb(11, 83, 38)
+  @media only screen and (max-width:320px) {
+   
+   
+    .one ul{
+        height: 1400px
+    }
+     .two ul{
+     height: 1900px
+     }
+   
+         .three ul{
+         height: 1680px
+         }
+       
+             .four ul{
+             height: 1620px
+             }
+
+                 .five ul{
+                 height: 1680px
+                 }
+       .sir h3{
+           font-size: 20px
+       }
+
+       .memb img{
+           width: 65%
+       }
+       .sir img{
+        width: 65%
+    }
+
+    h2{
+        font-size: 22px
+    }
+ 
   }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+ 
